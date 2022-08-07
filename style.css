@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -11,8 +13,8 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: #d2ed9f;
-  font-family: cursive, sans-serif;
+  background-color: #b3dbca;
+  font-family: "Rubik", sans-serif;
 }
 
 .form {
@@ -25,6 +27,7 @@ body {
 
 .form h1 {
   margin: 1rem 0;
+  font-size: 2rem;
 }
 
 .form input {
@@ -45,7 +48,7 @@ body {
 
 .input::placeholder {
   opacity: 0.3;
-  font-family: cursive;
+  font-family: "Rubik";
 }
 
 /* CSS */
@@ -105,5 +108,9 @@ body {
   body {
     width: 85%;
     margin: auto;
+  }
+
+  .form h1 {
+    font-size: 1.7rem;
   }
 }

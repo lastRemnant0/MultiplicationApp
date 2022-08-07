@@ -20,6 +20,7 @@ formEl.addEventListener("submit", () => {
     score++;
     updateLocalStorage();
   } else {
+    window.alert("WRONG ANSWER!\nRESET SCORE!");
     score = 0;
     updateLocalStorage();
   }
