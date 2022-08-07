@@ -26,6 +26,7 @@ body {
 .form h1 {
   margin: 1rem 0;
 }
+
 .form input {
   margin: 1rem 0 0.5rem;
 }
@@ -98,4 +99,11 @@ body {
   color: #ac3ff0;
   text-align: right;
   opacity: 0.8;
+}
+
+@media (max-width: 600px) {
+  body {
+    width: 85%;
+    margin: auto;
+  }
 }
